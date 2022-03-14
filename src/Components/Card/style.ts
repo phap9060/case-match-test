@@ -57,38 +57,3 @@ font-size: 1.3rem;
   }
 
 `
-export const button = styled.button`
-  width: 10rem;
-  height: 2rem;
-	background-color: #027ad6;
-  color: white;
-  font-weight: 600;
-  text-shadow: 0px 2px 5px rgba(0,0,0,.1);
-  cursor: pointer;
-
-  &:hover {
-    opacity: 0.6;
-  }
-  @media (max-width: 1000px) {
-    width: 3rem;
-    font-size: 0.5rem;
-
-  }
-`;
-export const disableButton = styled.button`
-  width: 10rem;
-  height: 2rem;
-  font-size: 1rem;
-  align-items: center;
-  background-color: #575757;
-  border-radius: 28px;
-  border: 1px solid #ffffff;
-  color: #ffffff;
-  text-decoration: none;
-  text-shadow: 0px 1px 0px #000000;
-  opacity: 0.6;
-  @media (max-width: 1000px) {
-    width: 3rem;
-    font-size: 0.5rem;
-  }
-`;
